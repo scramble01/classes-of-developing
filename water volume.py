@@ -1,6 +1,6 @@
 while True:
- print('сейчас вы узнаете свою норму воды в день')
- x = int(input('Напишите свой вес:'))
+ print('now you will find out your water norm per day')
+ x = int(input('Write down your weight:'))
  a = x*30
- z = ('мл воды в день')
+ z = ('ml of water per day')
  print(a,z) 
