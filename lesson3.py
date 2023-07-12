@@ -14,7 +14,7 @@ answer = int(input('Enter the number of the function you selected: '))
     
 if answer == '1' :
     user_weight_date = input('Write down your weight and todays date: ')
-    with open('weight_date.txt', 'w') as f:
+    with open('weight_date.txt', 'a') as f:
         f.write([user_weight_date])
 elif answer == '2' :
     with open('weight_date.txt', 'r') as f:
