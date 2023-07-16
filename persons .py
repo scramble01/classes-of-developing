@@ -12,7 +12,7 @@ user_answer = input('Напишите Свое Имя: ')
 
 surnames = []
 for person in persons:
-    if user_answer == (person['name']):
+    if user_answer == person['name']:
         surnames.append(person['surname'])
         print(user_answer,surnames)
     else:
